@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+}
+
+body{
+    background-color: #f3d3ae;
+}
+
+
+li{
+    list-style-type: none;
+    font-size: 50px;
+    color: blueviolet;
+    margin-left: 50px;
+    
+}
+
+h1{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #f8bcff;
+    background-color: #dda53d;
+    box-shadow: 5px 6px 5px 5px #f3d3ae;
+}
+
+img{
+    width: 20%;
+}
+
+.p1-h{
+    display: block;
+    margin-top: 30px;
+    margin-left: 5px;
+    line-height: 40px;
+}
+
+.Demon-Slayer{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 20px;
+}
+
+.MHA{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 20px;
+}
+
+.Wind-Breaker{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 20px;
+}
+
+.Blue-Lock{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 20px;
+}
+
+
+.Jujutsu-Kaisen{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 20px;
+}
+
+
+.Oshi-no-Ko{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 20px;
+}

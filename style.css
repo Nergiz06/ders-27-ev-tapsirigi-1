@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif
+}
+
+body{
+    background: #220449be  url(./anime\ background.avif);
+    background-size: contain;
+    background-blend-mode: darken;
+}
+
+header{
+    background-color: rgb(204, 198, 235);
+}
+
+li{
+    display: inline;
+    position: relative;
+    right: -350px;
+    padding: 3px;
+    color: #0a3029;
+    font-size: 15px;
+}
+
+h1, h2{
+    display: inline;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    color: #011f33dc;
+}
+
+h1{
+    color: #AF7AC5;
+}
+
+i{
+    color: #f6f882;
+}
+
+.div1, .div2, .div3{
+    background-color: rgb(220, 245, 226);
+    color: black;
+
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.div1{
+    margin-top: 20px;
+}
+
+
+footer{
+    margin: 0 auto;
+    width: fit-content;
+    background-color: #9c2f6b;
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px){
+    
+    h1, h2, p, li{
+        font-size: 13px;
+    }
+    .div1, .div2, .div3{
+        width: 80%;
+        height: 50%;
+    }
+
+    footer p{
+        font-size: 9px;
+    }
+
+    footer{
+        margin-left: 70px;
+    }
+
+    li{
+        right: 0px;
+    }
+}

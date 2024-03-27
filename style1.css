@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+
+body{
+    background: rgba(255, 145, 0, 0.685) url(./anime\ bacground.jpg);
+    
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+h1{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #E6E6FA;
+    background-color: #857ca5;
+    box-shadow: 5px 6px 5px 5px #e4d8f7a8;
+}
+
+li{
+    list-style-type: none;
+    font-size: 50px;
+    color: blueviolet;
+    margin-left: 50px;
+    
+}
+
+img{
+    width: 25vw;
+    height: 60vh;
+}
+
+.MHA{
+    margin-top: 70px;
+    margin-left: 10px;
+    color: white;
+}
+
+.MHA-h4{
+    width: fit-content;
+    position: relative;
+}
+
+.MHA span{
+    display: block;
+    padding: 10px;
+    position: absolute;
+    background-color: rgb(62, 114, 131);
+    top: 20px;
+    visibility: hidden;
+    width: 17vw;
+}
+
+.MHA-h4:hover span{
+    visibility: visible;
+}
+
+span img{
+    width: 15vw;
+    height: 35vh;
+}
+
+span h5{
+    float: left;
+    color: aquamarine;
+}
+
+span p{
+    font-size: 10px;
+}
+
+
+
+.AOT{
+    margin-top: 70px;
+    margin-left: 10px;
+    color: white;
+}
+
+.AOT-h4{
+    width: fit-content;
+    position: relative;
+}
+
+.AOT span{
+    display: block;
+    padding: 10px;
+    position: absolute;
+    background-color: rgb(62, 114, 131);
+    top: 20px;
+    visibility: hidden;
+    width: 18vw;
+}
+
+.AOT-h4:hover span{
+    visibility: visible;
+}
+
+
+
+.BSD{
+    margin-top: 70px;
+    margin-left: 10px;
+    color: white;
+}
+
+.BSD-h4{
+    width: fit-content;
+    position: relative;
+}
+
+.BSD span{
+    display: block;
+    padding: 10px;
+    position: absolute;
+    background-color: rgb(62, 114, 131);
+    top: 20px;
+    visibility: hidden;
+    width: 18vw;
+}
+
+.BSD-h4:hover span{
+    visibility: visible;
+}
+
+
+.DN{
+    margin-top: 70px;
+    margin-left: 10px;
+    color: white;
+}
+
+.DN-h4{
+    width: fit-content;
+    position: relative;
+}
+
+.DN span{
+    display: block;
+    padding: 10px;
+    position: absolute;
+    background-color: rgb(62, 114, 131);
+    top: 20px;
+    visibility: hidden;
+    width: 19vw;
+}
+
+.DN-h4:hover span{
+    visibility: visible;
+}
+
+
+
+.VE{
+    margin-top: 70px;
+    margin-left: 10px;
+    color: white;
+}
+
+.VE-h4{
+    width: fit-content;
+    position: relative;
+}
+
+.VE span{
+    display: block;
+    padding: 10px;
+    position: absolute;
+    background-color: rgb(62, 114, 131);
+    top: 20px;
+    visibility: hidden;
+    width: 20vw;
+}
+
+.VE-h4:hover span{
+    visibility: visible;
+}
+
+
+
+.JK{
+    margin-top: 70px;
+    margin-left: 10px;
+    color: white;
+}
+
+.JK-h4{
+    width: fit-content;
+    position: relative;
+}
+
+.JK span{
+    display: block;
+    padding: 10px;
+    position: absolute;
+    background-color: rgb(62, 114, 131);
+    top: 20px;
+    visibility: hidden;
+    width: 20vw;
+}
+
+.JK-h4:hover span{
+    visibility: visible;
+}
+
+
+
+.OP{
+    margin-top: 70px;
+    margin-left: 10px;
+    color: white;
+}
+
+.OP-h4{
+    width: fit-content;
+    position: relative;
+}
+
+.OP span{
+    display: block;
+    padding: 10px;
+    position: absolute;
+    background-color: rgb(62, 114, 131);
+    top: 20px;
+    visibility: hidden;
+    width: 18vw;
+}
+
+.OP-h4:hover span{
+    visibility: visible;
+}
+
+
+.SM{
+    margin-top: 70px;
+    margin-left: 10px;
+    color: white;
+}
+
+.SM-h4{
+    width: fit-content;
+    position: relative;
+}
+
+.SM span{
+    display: block;
+    padding: 10px;
+    position: absolute;
+    background-color: rgb(62, 114, 131);
+    top: 20px;
+    visibility: hidden;
+    width: 18vw;
+}
+
+.SM-h4:hover span{
+    visibility: visible;
+}
+
+.SM img{
+    margin-left: 50px;
+}
+
+.SM span img{
+    margin-left: -1px;
+}
+
+
+div, span{
+    display: inline-flex;
+}
+
+
+@media only screen and (max-width:600px){
+    img{
+        width: 20vw;
+        height: 20vh;
+    }
+
+    span img{
+        width: 10vw;
+        height: 10vh;
+    }
+}
